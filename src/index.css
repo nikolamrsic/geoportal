@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cadet: #7A9E9F;
+    --red: #FE5F55
+}
+
+.Map_Container {
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-img {}
+
+.hero_paper {
+    position: absolute;
+    top: -100%;
+    right: 0;
+    height: 512px;
+    background-color: #FE5F55;
+    z-index: -1;
+    ;
+    width: calc(458px * 1.2);
+    border-radius: 0 0 55px 55px;
+}
+
+.list_num {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--cadet)
+}
+
+.map-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.ol-zoom {
+    top: 100px;
+    left: 40px;
+    z-index: 888 !important;
+    position: absolute;
+}
+
+.bingDark {
+    background-image: url('./assets/bingDark.png') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bingLight {
+    background-image: url('./assets/bingLight.png') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bingSatelite {
+    background-image: url('./assets/bingSatelite.png') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
